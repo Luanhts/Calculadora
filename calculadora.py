@@ -12,12 +12,12 @@ def divisao(x, y):
         return "Erro: divisão por zero"
     return x / y
 while True:
-    print("Opcções")
+    print("----------------\nOpções\n----------------\n")
     print("1. adição")
     print("2. subtração")
     print("3. multiplicação")
     print("4. divisão")
-    print("5. sair")
+    print("5. sair\n")
 
     escolha = input("Escolha a operação desejada: ")
 
@@ -33,14 +33,14 @@ while True:
     num2 = float(input("Digite o segundo valor: "))
 
     if escolha == '1':
-        print("Resultado: ", adicao(num1, num2))
+        print("\nResultado: ", adicao(num1, num2))
 
     elif escolha == '2':
-        print("Resultado: ",subtracao(num1, num2) )
+        print("\nResultado: ",subtracao(num1, num2) )
     elif escolha == '3':
-        print("Resultado:", multiplicacao(num1,num2))
+        print("\nResultado:", multiplicacao(num1,num2))
     elif escolha == '4':
-        print("Resultado: ", divisao(num1,num2))
+        print("\nResultado: ", divisao(num1,num2))
 
 
 
